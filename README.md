@@ -41,7 +41,10 @@ The project features a modular structure with components handling rendering, tex
 ### Build Commands  
 - Using Visual Studio: Build and Run (`Ctrl+Shift+B`, `Ctrl+F5`)  
 - Using CLI:  
-
+``` dotnet restore 
+	dotnet build
+	dotnet run --project Game
+```
 ---
 
 ## Credits
